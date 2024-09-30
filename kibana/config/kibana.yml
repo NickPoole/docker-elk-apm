@@ -72,19 +72,6 @@ xpack.fleet.agentPolicies:
       - name: docker-1
         package:
           name: docker
-  - name: Agent Policy APM Server
-    id: agent-policy-apm-server
-    description: Static agent policy for the APM Server integration
-    monitoring_enabled:
-      - logs
-      - metrics
-    package_policies:
-      - name: system-1
-        package:
-          name: system
-      - name: elastic_agent-1
-        package:
-          name: elastic_agent
       - name: apm-1
         package:
           name: apm
