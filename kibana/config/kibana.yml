@@ -43,12 +43,6 @@ xpack.fleet.outputs:
 xpack.fleet.packages:
   - name: fleet_server
     version: latest
-  - name: system
-    version: latest
-  - name: elastic_agent
-    version: latest
-  - name: docker
-    version: latest
   - name: apm
     version: latest
 
@@ -63,15 +57,6 @@ xpack.fleet.agentPolicies:
       - name: fleet_server-1
         package:
           name: fleet_server
-      - name: system-1
-        package:
-          name: system
-      - name: elastic_agent-1
-        package:
-          name: elastic_agent
-      - name: docker-1
-        package:
-          name: docker
       - name: apm-1
         package:
           name: apm
